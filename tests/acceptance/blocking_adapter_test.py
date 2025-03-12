@@ -47,7 +47,7 @@ DEFAULT_TIMEOUT = 15
 
 
 def setUpModule():
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
 
 
 class BlockingTestCaseBase(unittest.TestCase):
